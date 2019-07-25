@@ -20,7 +20,7 @@ def COMB( X,Y):
 
     score = []
     for i in range(len(X.columns)): # loop number of features
-        K = MiniBatchKMeans(n_clusters=len(Y[Y.columns[0]].unique())-1, random_state=0)
+        K = MiniBatchKMeans(n_clusters=len(Y[Y.columns[0]].unique()), random_state=0)
         pred = K.fit_predict(X.iloc[:, [i]].values)
         s = completeness_score(Y[Y.columns[0]].values,pred)
         score.append(s)
@@ -90,7 +90,7 @@ def VMMB( X,Y):
     from sklearn.metrics.cluster import v_measure_score as v
     score = []
     for i in range(len(X.columns)): # loop number of features
-        K = MiniBatchKMeans(n_clusters=len(Y[Y.columns[0]].unique())-1, random_state=0)
+        K = MiniBatchKMeans(n_clusters=len(Y[Y.columns[0]].unique()), random_state=0)
         pred = K.fit_predict(X.iloc[:, [i]].values)
         s = v(Y[Y.columns[0]].values,pred)
         score.append(s)
@@ -163,7 +163,7 @@ def ARMB( X, Y):
 
     score = []
     for i in range(len(X.columns)): # loop number of features
-        K = MiniBatchKMeans(n_clusters=len(Y[Y.columns[0]].unique())-1, random_state=0)
+        K = MiniBatchKMeans(n_clusters=len(Y[Y.columns[0]].unique()), random_state=0)
         pred = K.fit_predict(X.iloc[:, [i]].values)
         s = adjusted_rand_score(Y[Y.columns[0]].values,pred)
         score.append(s)
@@ -237,7 +237,7 @@ def FIMB(X,Y):
     from sklearn.metrics.cluster import fowlkes_mallows_score as scorer
     score = []
     for i in range(len(X.columns)): # loop number of features
-        K = MiniBatchKMeans(n_clusters=len(Y[Y.columns[0]].unique())-1, random_state=0)
+        K = MiniBatchKMeans(n_clusters=len(Y[Y.columns[0]].unique()), random_state=0)
         pred = K.fit_predict(X.iloc[:, [i]].values)
         s = scorer(Y[Y.columns[0]].values,pred)
         score.append(s)
@@ -310,7 +310,7 @@ def BF(X,Y):
     from sklearn.metrics.cluster import fowlkes_mallows_score as scorer
     score = []
     for i in range(len(X.columns)): # loop number of features
-        K = Birch(n_clusters=len(Y[Y.columns[0]].unique())-1)
+        K = Birch(n_clusters=len(Y[Y.columns[0]].unique()))
         pred = K.fit_predict(X.iloc[:, [i]].values)
         s = scorer(Y[Y.columns[0]].values,pred)
         score.append(s)
