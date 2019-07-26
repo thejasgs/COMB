@@ -44,9 +44,6 @@ def COMB( X,Y):
     
     li.sort(key = sortSecond, reverse=True) 
 
-
-
-        
     # Create a copy of X dataframe with columns sorted by score
 
     titles = []
@@ -75,9 +72,7 @@ def COMB( X,Y):
         clf.fit(x_train, y_train)
         y_pred = clf.predict(x_test)
         accuracy.append(accuracy_score(y_test, y_pred)) 
-    
 
-    
     # best score calcuation
     index = accuracy.index(max(accuracy))
     X = X2.iloc[:,0:len(X.columns)-index]
@@ -114,9 +109,6 @@ def VMMB( X,Y):
     
     li.sort(key = sortSecond, reverse=True) 
 
-
-
-        
     # Create a copy of X dataframe with columns sorted by score
 
     titles = []
@@ -147,9 +139,7 @@ def VMMB( X,Y):
         clf.fit(x_train, y_train)
         y_pred = clf.predict(x_test)
         accuracy.append(accuracy_score(y_test, y_pred)) 
-    
 
-    
     # best score calcuation
     index = accuracy.index(max(accuracy))
 
@@ -187,9 +177,6 @@ def ARMB( X, Y):
     
     li.sort(key = sortSecond, reverse=True) 
 
-
-
-        
     # Create a copy of X dataframe with columns sorted by score
 
     titles = []
@@ -220,9 +207,7 @@ def ARMB( X, Y):
         clf.fit(x_train, y_train)
         y_pred = clf.predict(x_test)
         accuracy.append(accuracy_score(y_test, y_pred)) 
-    
 
-    
     # best score calcuation
     index = accuracy.index(max(accuracy))
 
@@ -261,9 +246,6 @@ def FIMB(X,Y):
     
     li.sort(key = sortSecond, reverse=True) 
 
-
-
-        
     # Create a copy of X dataframe with columns sorted by score
 
     titles = []
@@ -294,9 +276,7 @@ def FIMB(X,Y):
         clf.fit(x_train, y_train)
         y_pred = clf.predict(x_test)
         accuracy.append(accuracy_score(y_test, y_pred)) 
-    
 
-    
     # best score calcuation
     index = accuracy.index(max(accuracy))
 
@@ -334,9 +314,6 @@ def BF(X,Y):
     
     li.sort(key = sortSecond, reverse=True) 
 
-
-
-        
     # Create a copy of X dataframe with columns sorted by score
 
     titles = []
@@ -365,9 +342,7 @@ def BF(X,Y):
         clf.fit(x_train, y_train)
         y_pred = clf.predict(x_test)
         accuracy.append(accuracy_score(y_test, y_pred)) 
-    
 
-    
     # best score calcuation
     index = accuracy.index(max(accuracy))
 
