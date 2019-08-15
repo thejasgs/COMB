@@ -76,6 +76,8 @@ def COMB( X,Y):
     # best score calcuation
     index = accuracy.index(max(accuracy))
     X = X2.iloc[:,0:len(X.columns)-index]
+    
+    return X
 
 def VMMB( X,Y):
     import numpy as np 
@@ -142,9 +144,9 @@ def VMMB( X,Y):
 
     # best score calcuation
     index = accuracy.index(max(accuracy))
-
     X = X2.iloc[:,0:len(X.columns)-index]
-
+    
+    return X
 
 def ARMB( X, Y):
     # cluster and score
@@ -210,8 +212,9 @@ def ARMB( X, Y):
 
     # best score calcuation
     index = accuracy.index(max(accuracy))
-
     X = X2.iloc[:,0:len(X.columns)-index]
+    
+    return X
 
 
 def FIMB(X,Y):
@@ -279,8 +282,9 @@ def FIMB(X,Y):
 
     # best score calcuation
     index = accuracy.index(max(accuracy))
-
     X = X2.iloc[:,0:len(X.columns)-index]
+    
+    return X
 
 def BF(X,Y):
     import numpy as np 
@@ -345,5 +349,6 @@ def BF(X,Y):
 
     # best score calcuation
     index = accuracy.index(max(accuracy))
-
     X = X2.iloc[:,0:len(X.columns)-index]
+    
+    return X

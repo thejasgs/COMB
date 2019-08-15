@@ -10,12 +10,14 @@ If you are feeling adventurous, feel free to take the package and tweak the para
 - pandas
 - scikitlearn
 
-You may install them using ```python3 -m pip install --user numpy sklearn pandas```
+You may install them using:
+
+```python3 -m pip install --user numpy sklearn pandas```
 
 ## Usage
 ```python
 import featureSelex
-featureSelex.nameOfMethod(X,Y)
+X = featureSelex.nameOfMethod(X,Y)
 ```
 
 *Voila! **X** now only contains the columns of the selected features.*
@@ -23,7 +25,7 @@ featureSelex.nameOfMethod(X,Y)
 
 ```python 
 from featureSelex import nameOfMethod
-nameOfMethod(X,Y)
+X = nameOfMethod(X,Y)
 ```
 
 You may use these methods.
