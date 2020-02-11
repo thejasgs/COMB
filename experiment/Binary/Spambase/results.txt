@@ -1,0 +1,35 @@
+File:  spambase_COMB_FI_AVG.py
+Average Accuracy:  0.932389057653053
+Average Precision:  0.9355146733116971
+Average Recall:  0.932389057653053
+Average F1:  0.9321539707345557
+Average ROC_AUC:  0.9324092842480518
+Features Selected  30
+File:  spambase_HRFE.py
+Average Accuracy:  0.929517655946124
+Average Precision:  0.9347846871766825
+Average Recall:  0.929517655946124
+Average F1:  0.9290477845777934
+Average ROC_AUC:  0.9295438312001698
+Features Selected  55
+File:  spambase_none.py
+Average Accuracy:  0.9216283330922416
+Average Precision:  0.9281726105949331
+Average Recall:  0.9216283330922416
+Average F1:  0.9209974982421707
+Average ROC_AUC:  0.921655952587788
+Features Selected  57
+File:  spambase_RFRFE.py
+Average Accuracy:  0.927544722503496
+Average Precision:  0.9336086849414645
+Average Recall:  0.927544722503496
+Average F1:  0.9269771960231669
+Average ROC_AUC:  0.9275747572440686
+Features Selected  37
+File:  spambase_SVMRFE.py
+Average Accuracy:  0.9230607390263111
+Average Precision:  0.9288215865819032
+Average Recall:  0.9230607390263111
+Average F1:  0.9224735085704563
+Average ROC_AUC:  0.9230893225999498
+Features Selected  47

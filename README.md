@@ -17,24 +17,16 @@ You may install them using:
 ## Usage
 ```python
 import featureSelex
-X = featureSelex.nameOfMethod(X,Y)
+X = featureSelex.COMB(X,Y)
 ```
 
 *Voila! **X** now only contains the columns of the selected features.*
 #### OR
 
 ```python 
-from featureSelex import nameOfMethod
-X = nameOfMethod(X,Y)
+from featureSelex import COMB
+X = COMB(X,Y)
 ```
-
-You may use these methods.
-
-- `from featureSelex import COMB`
-- `from featureSelex import ARMB`
-- `from featureSelex import VMMB`
-- `from featureSelex import FIMB`
-- `from featureSelex import BF`
 
 ## Permissions
 If you using a for research, please cite our research paper.

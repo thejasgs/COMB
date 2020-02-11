@@ -1,0 +1,35 @@
+File:  sonar_COMB_FI_AVG.py
+Average Accuracy:  0.7977777777777778
+Average Precision:  0.800378536922015
+Average Recall:  0.7977777777777778
+Average F1:  0.797412921421363
+Average ROC_AUC:  0.7974308300395256
+Features Selected  9
+File:  sonar_HRFE.py
+Average Accuracy:  0.7525252525252526
+Average Precision:  0.7580058185193118
+Average Recall:  0.7525252525252525
+Average F1:  0.7503611506486435
+Average ROC_AUC:  0.7525691699604744
+Features Selected  7
+File:  sonar_none.py
+Average Accuracy:  0.6626262626262627
+Average Precision:  0.6662189869971076
+Average Recall:  0.6626262626262627
+Average F1:  0.657852205925829
+Average ROC_AUC:  0.6628458498023715
+Features Selected  60
+File:  sonar_RFRFE.py
+Average Accuracy:  0.6807070707070706
+Average Precision:  0.68340876345453
+Average Recall:  0.6807070707070706
+Average F1:  0.6780286213370884
+Average ROC_AUC:  0.6802371541501977
+Features Selected  50
+File:  sonar_SVMRFE.py
+Average Accuracy:  0.7345454545454546
+Average Precision:  0.7365634694614416
+Average Recall:  0.7345454545454546
+Average F1:  0.731727428937356
+Average ROC_AUC:  0.7343873517786561
+Features Selected  59

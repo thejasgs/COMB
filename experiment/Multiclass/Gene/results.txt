@@ -1,0 +1,42 @@
+File:  gene_ARMB.py
+Average Accuracy:  0.9986666666666666
+Average Precision:  0.998688524590164
+Average Recall:  0.9986666666666666
+Average F1:  0.9986665740676436
+Average ROC_AUC:  0.9991666666666668
+Features Selected  20005
+File:  gene_COMB_FI_AVG.py
+Average Accuracy:  0.998
+Average Precision:  0.9980539397144369
+Average Recall:  0.998
+Average F1:  0.9979995832272088
+Average ROC_AUC:  0.99875
+Features Selected  19
+File:  gene_COMB.py
+Average Accuracy:  0.9966666666666667
+Average Precision:  0.996783762685402
+Average Recall:  0.9966666666666667
+Average F1:  0.9966711665619377
+Average ROC_AUC:  0.9979166666666668
+Features Selected  20359
+File:  gene_HRFE.py
+Average Accuracy:  0.994
+Average Precision:  0.994095819884875
+Average Recall:  0.994
+Average F1:  0.9939878207198779
+Average ROC_AUC:  0.9962500000000001
+Features Selected  20226
+File:  gene_none.py
+Average Accuracy:  0.9966666666666667
+Average Precision:  0.9967728337236533
+Average Recall:  0.9966666666666667
+Average F1:  0.9966769100555812
+Average ROC_AUC:  0.9979166666666668
+Features Selected  20531
+File:  gene_RFRFE.py
+Average Accuracy:  0.998
+Average Precision:  0.9980539397144369
+Average Recall:  0.998
+Average F1:  0.9980052804213407
+Average ROC_AUC:  0.99875
+Features Selected  4262

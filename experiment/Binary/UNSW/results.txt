@@ -1,0 +1,42 @@
+File:  UNSW_AMRB.py
+Average Accuracy:  0.9161668164277967
+Average Precision:  0.9537883735515795
+Average Recall:  0.9161668164277967
+Average F1:  0.8989234814110117
+Average ROC_AUC:  0.9161668164443235
+Features Selected  3
+File:  UNSW_COMB_FI_AVG.py
+Average Accuracy:  0.9976436398243417
+Average Precision:  0.9976973735182952
+Average Recall:  0.9976436398243417
+Average F1:  0.997643317103309
+Average ROC_AUC:  0.99764363982875
+Features Selected  9
+File:  UNSW_COMB.py
+Average Accuracy:  0.9105160593883564
+Average Precision:  0.9522254642911037
+Average Recall:  0.9105160593883564
+Average F1:  0.888781242534875
+Average ROC_AUC:  0.9105160594908476
+Features Selected  2
+File:  UNSW_HRFE.py
+Average Accuracy:  0.9396261916265851
+Average Precision:  0.961825207564081
+Average Recall:  0.9396261916265851
+Average F1:  0.9338481169336287
+Average ROC_AUC:  0.9396261916453159
+Features Selected  3
+File:  UNSW_none.py
+Average Accuracy:  0.9399121118243652
+Average Precision:  0.9624588170997932
+Average Recall:  0.9399121118243652
+Average F1:  0.9339537773049814
+Average ROC_AUC:  0.9399121118155482
+Features Selected  43
+File:  UNSW_RFRFE.py
+Average Accuracy:  0.9114940046087845
+Average Precision:  0.9530396024159021
+Average Recall:  0.9114940046087845
+Average F1:  0.8899515688966293
+Average ROC_AUC:  0.9114940046054782
+Features Selected  28
