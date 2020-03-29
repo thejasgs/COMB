@@ -1,5 +1,5 @@
 '''FeatureSelex - Feature Selection Module'''
-# If you using a for research, please cite our research paper.
+# If you using our method for research, please cite our research paper.
 # If you are using this code for any other project, please contact Thejas Gubbi Sadashiva <tgs001@fiu.edu> or Daniel Jimenez <djime072@fiu.edu>.
 
 # imports
@@ -60,7 +60,7 @@ def COMB( X,Y):
         X1[X1.columns[i]] = X[X.columns[li[i][0]]]
     
 
-    # Recursive Feature Elemination from # of features to 0 and keep the accuracy score of each
+    # Feature Inclusion from # of features to 0 and keep the accuracy score of each
 
     accuracy = []
     X2 = X1.copy()
