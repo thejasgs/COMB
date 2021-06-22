@@ -30,6 +30,7 @@ X = COMB(X,Y)
 
 ## Permissions
 If you using this for research, please cite our research paper.
+
 ```ACM REFERENCE FORMAT
 Thejas G. S., Daniel Jimenez, S.S. Iyengar, Jerry Miller, N.R. Sunitha, and Prajwal Badrinath. 2020. COMB: A Hybrid Method for Cross-validated Feature Selection. In 2020 ACM Southeast Conference (ACMSE 2020), April 2–4, 2020, Tampa, FL, USA. ACM, New York, NY, USA, 8 pages. https: //doi.org/10.1145/3374135.3385285
 ```
